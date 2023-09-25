@@ -25,3 +25,9 @@ When choosing the template, I already chose `typescript` for our routes.
 
 Video tutorial example:
     [nojust.dev - Twitter-clone](https://www.youtube.com/watch?v=sNixa64aG9Y&list=PLg1b5QWyU--5Gl6MAp81Y_lTTAapeo8Co&index=12)
+
+|Time: | 31:43 min | 4:21:37 hs |
+|------|-----------|------------|
+|Tela: | inicial   |            |
+|------|-----------|------------|
+ 
