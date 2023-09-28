@@ -1,18 +1,22 @@
 import { Image, StyleSheet, Text, View } from "react-native";
+import { TweetType } from "../types";
 
-// import tweets from "../assets/data/tweets";
-// const tweet = tweets[0];
+type TweetProps = {
+    tweet: TweetType;
+}
 
-const Tweet = ({ tweet }) => {
-    // const tweet = props.tweet;
-
+const Tweet = ({ tweet }: TweetProps) => {
     return (
         <View style={styles.container}>
             <Image src={tweet.user.image} style={styles.userImage} />
 
             <View style={styles.mainContainer}>
-                <Text style={styles.name}>{tweet.user.name}</Text>
-                <Text style={styles.content}>{tweet.content}</Text>
+                <Text style={styles.name}>
+                    {tweet.user.name}
+                </Text>
+                <Text style={styles.content}>
+                    {tweet.content}
+                </Text>
             </View>
         </View>
     );
@@ -25,8 +29,8 @@ const styles = StyleSheet.create({
         padding: 10,
         borderBottomWidth: StyleSheet.hairlineWidth,
         borderColor: 'lightgray',
-        backgroundColor: 'gray',
-        // backgroundColor: 'white',
+        // backgroundColor: 'gray',
+        backgroundColor: 'white',
     },
     userImage: {
         width: 50,
