@@ -18,16 +18,26 @@ When choosing the template, I already chose `typescript` for our routes.
 
 <hr>
 
+### @expo/vector-icons
+
+> This library is installed by default on the template project using npx create-expo-app and is part of the expo package. It is built on top of react-native-vector-icons and uses a similar API. It includes popular icon sets that you can browse at icons.expo.fyi.
+
+
+[vector icons](https://icons.expo.fyi/Index)
+
+
+<hr>
+
 |Autor:| Ivan  |  🫀  |
 |------|-------|-------|
 
 <hr>
 
-Video tutorial example:
+<!-- Video tutorial example:
     [nojust.dev - Twitter-clone](https://www.youtube.com/watch?v=sNixa64aG9Y&list=PLg1b5QWyU--5Gl6MAp81Y_lTTAapeo8Co&index=12)
 
-|Time: | 51:43 min | 4:21:37 hs |tudo ok ate aqui|
+|Time: | 1:31:00 min | 4:21:37 hs |tudo ok ate aqui|
 |------|-----------|------------|----------------|
 |Tela: | inicial   |            |
 |------|-----------|------------|
- 
+  -->
