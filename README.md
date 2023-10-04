@@ -31,5 +31,3 @@ When choosing the template, I already chose `typescript` for our routes.
 |Autor:| Ivan  |  🫀  |
 |------|-------|-------|
 
-<hr>
-

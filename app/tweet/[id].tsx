@@ -4,10 +4,11 @@ import Tweet from "../../components/Tweet"
 import { useLocalSearchParams, useSearchParams } from 'expo-router';
 
 export default function TweetScreen() {
-    const {id} = useLocalSearchParams();
-    // console.warn(id);
-
+    const {id, filter} = useLocalSearchParams();
+    
     const tweet = tweets.find((t) => t.id === id);
+    
+    console.warn(filter);
 
     if(!tweet) {
         return <Text>Tweet {id} not found!</Text>;
