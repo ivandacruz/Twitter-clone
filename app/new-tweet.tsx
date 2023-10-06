@@ -1,4 +1,4 @@
-import { View, StyleSheet, Text, Image } from 'react-native';
+import { View, StyleSheet, Text, Image, TextInput } from 'react-native';
 
 const user = {
     id: 'u1',
@@ -11,8 +11,15 @@ const user = {
 export default function NewTweet() {
     return (
         <View style={styles.container}>
-            <Image src={user.image} style={styles.image} />
-            <Text>Create new tweet</Text>
+            <View style={styles.inputContainer}>
+                <Image src={user.image} style={styles.image} />
+                <TextInput 
+                    placeholder="What's happening?"
+                    multiline
+                    numberOfLines={5} 
+                    style={{ flex: 1 }}
+                />
+            </View>
         </View>
     );
 
@@ -22,10 +29,15 @@ const styles = StyleSheet.create({
     container: {
         padding: 10,
         backgroundColor: 'white',
+        flex: 1,
     },
     image: {
         width: 50,
         aspectRatio: 1,
         borderRadius: 50,
-    }
+        marginRight: 10,
+    },
+    inputContainer: {
+        flexDirection: 'row',
+    },
 });
