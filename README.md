@@ -16,6 +16,18 @@
 
 When choosing the template, I already chose `typescript` for our routes.
 
+
+
+### Start project
+
+```sh
+  # start
+
+npm start
+
+```
+
+
 <hr>
 
 ### @expo/vector-icons
@@ -28,6 +40,25 @@ When choosing the template, I already chose `typescript` for our routes.
 
 <hr>
 
+## React Native Shadow Generator
+
+[react-native-shadow-generator](https://ethercreative.github.io/react-native-shadow-generator/)
+
+
+
+
+<hr>
+
 |Autor:| Ivan  |  🫀  |
 |------|-------|-------|
 
+<hr>
+
+Video tutorial example:
+    [nojust.dev - Twitter-clone](https://www.youtube.com/watch?v=sNixa64aG9Y&list=PLg1b5QWyU--5Gl6MAp81Y_lTTAapeo8Co&index=12)
+
+|Time: | 02:56:00 hs | 04:21:37 hs |tudo ok ate aqui|
+|------|-----------|------------|----------------|
+|Tela: | inicial   |            |
+|------|-----------|------------|
+ 
