@@ -45,6 +45,28 @@ npm start
 [react-native-shadow-generator](https://ethercreative.github.io/react-native-shadow-generator/)
 
 
+<hr>
+
+## Expo Router
+
+[Expo Router - drawer navigator](https://reactnavigation.org/docs/drawer-based-navigation)
+
+```sh
+
+npm i @react-navigation/drawer
+
+```
+[docs reference](https://reactnavigation.org/docs/drawer-navigator/#installation)
+
+```sh
+npx expo install react-native-gesture-handler react-native-reanimated
+
+```
+step by step: 
+
+> import 'react-native-gesture-handler';
+
+
 
 
 <hr>
@@ -52,4 +74,3 @@ npm start
 |Autor:| Ivan  |  🫀  |
 |------|-------|-------|
 
-<hr>
